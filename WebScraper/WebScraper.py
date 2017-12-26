@@ -14,6 +14,8 @@ soup = bs.BeautifulSoup(sauce,'lxml')
 
 #Passing the value of the page title
 title = (soup.title.text)
+
+#Just to include the title in the textfile
 scraped = title
 scraped = scraped + "\n"
 

@@ -27,7 +27,7 @@ file = open(complete_name, "w")
 for paragraph in soup.find_all('p'):
     
     try:
-        scraped = scraped + ' ' + paragraph.text
+        scraped = paragraph.text
         print (scraped) #used for checking correct output
         file.write(str(scraped))
         

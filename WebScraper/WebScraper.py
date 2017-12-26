@@ -34,7 +34,7 @@ for paragraph in soup.find_all('p'):
         file.write(str(scraped))
         
     except:
-        file.close()
+        print("Table") #Just to notify if the interpreter is inside a table and not a <p> tag
         
 file.close()
 

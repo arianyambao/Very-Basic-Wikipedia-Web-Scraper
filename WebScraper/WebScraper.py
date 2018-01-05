@@ -6,7 +6,7 @@ import os.path
 #Getting the target site
 site= 'https://tl.wikipedia.org/wiki/Pangulo_ng_Pilipinas'
 
-#Oppening the Site
+#Openning the Site
 sauce = urllib.request.urlopen(site).read()
 
 #In lxml it will automatically identify if the type is an xml or an HTML
